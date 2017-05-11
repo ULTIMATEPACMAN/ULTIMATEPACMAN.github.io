@@ -1,5 +1,37 @@
 /* Put your CSS in this file. */
 
+<<<<<<< HEAD
+=======
+img {
+  max-width: 100%
+}
+
+<style>
+/* regular css */
+#header {
+  position: fixed
+.tabs {
+  padding: 10px 2em
+}
+
+@media screen and (max-width: 500px) {
+/* applies only if the screen is narrower than 500px */
+  .tabs {
+    padding: 3px 1em
+  }
+}
+</style>
+
+.header {
+  background: url(header.png) 50% no-repeat;
+  background-size: contain
+}
+
+input, textarea {
+  max-width:100%
+}
+
+>>>>>>> 7f11961ee843d986324f60e4cd9c342ea5c7c4ef
 body {
     background-color: 		#000000;
 }
